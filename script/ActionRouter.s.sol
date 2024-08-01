@@ -2,6 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Script.sol";
+import "openzeppelin-contracts/utils/Create2.sol";
 import {Router} from "../src/ActionRouter.sol";
 
 contract DeployRouter is Script {
@@ -24,47 +25,50 @@ contract DeployRouter is Script {
 contract ActionScript is Script {
     address ownerAddress;
     uint64 currentNonce;
+    address routerContractAddress;
+    address nftContractAddress;
 
     function setUp() public {
         ownerAddress = vm.envAddress("OWNER");
         currentNonce = vm.getNonce(ownerAddress);
-        // Read the contract address from the JSON file
-        string memory contractInfoPath = "../broadcast/DeployRouter.s.sol/run-latest.json";
-        string memory contractInfo = vm.readFile(contractInfoPath);
 
-        // Parse JSON to get the contract address
-        bytes memory parsed = vm.parseJson(contractInfo, ".transactions[0].contractAddress");
-        address contractAddress = abi.decode(parsed, (address));
+        string memory routerContractInfoPath = "./broadcast/ActionRouter.s.sol/666/run-latest.json";
+        string memory routerContractInfo = vm.readFile(routerContractInfoPath);
+        bytes memory routerJsonParsed = vm.parseJson(routerContractInfo, ".transactions[0].contractAddress");
+        routerContractAddress = abi.decode(routerJsonParsed, (address));
 
-        console.log("contract Address: ", contractAddress);
+        string memory nftContractInfoPath = "./broadcast/ERC721.s.sol/666/run-latest.json";
+        string memory nftContractInfo = vm.readFile(nftContractInfoPath);
+        bytes memory nftJsonParsed = vm.parseJson(nftContractInfo, ".transactions[0].contractAddress");
+        nftContractAddress = abi.decode(nftJsonParsed, (address));
     }
 
     function run() external {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
 
-        // // Replace with the actual deployment address
-        // address contractAddress = 0x0000000000000000000000000000000000000055;
+        // Initialize variables
+        string memory actionName = "attend_stage";
+        string memory tokenId = "5";
+        string memory nftSchema = "TechSauceV10.GlobalSummit2024";
+        string memory refId = vm.toString(vm.getNonce(ownerAddress));
+        string memory jsonParams = '[{"name":"stage","value":"stage_2"}]';
 
-        // // Initialize variables
-        // address nftContractAddress = 0x2b304d0C42D05e21F1dF0f5c9314986fA2544fD0;
-        // string memory actionName = "attend_main_stage";
-        // string memory tokenId = "5";
-        // string memory nftSchema = "TechSauceV9.GlobalSummit2024";
-        // string memory refId = "5";
+        Router actionRouter = Router(routerContractAddress);
 
-        // // Encoded parameters as JSON string
-        // string memory jsonParams = "[{\"name\":\"stage\",\"value\":\"stage_1\"},{\"name\":\"section\",\"value\":\"section_A\"}]";
+        bool success = actionRouter.actionByNftOwner(
+            nftContractAddress,
+            nftSchema,
+            tokenId,
+            actionName,
+            refId,
+            jsonParams
+        );
 
-        // INFTMNGR moduleContract= NFTMNGR(contractAddress);
+        require(success, "Transaction failed. Check error message below:");
 
-        // bool success = moduleContract.actionByNftOwner(nftContractAddress,nftSchema, tokenId, actionName, refId, jsonParams);
-
-        // require(success, "Transaction failed. Check error message below:");
-
-        // // Log the success message
-        // console.log("Action executed successfully!");
-
+        // Log the success message
+        console.log("Action executed successfully!");
         vm.stopBroadcast();
     }
 }
