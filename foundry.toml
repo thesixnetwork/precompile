@@ -5,7 +5,7 @@ src = 'src'
 
 optimizer = true
 optimizer_runs = 200
-solc_version = "0.8.13"
+solc_version = "0.8.20"
 
 fs_permissions = [{ access = "read-write", path = "./"}]
 

@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.20;
 
 import "forge-std/Script.sol";
 import {IBank} from "../src/IBank.sol";
@@ -14,12 +14,12 @@ contract BankScript is Script {
     }
 
     function run() external {
-        //uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
-        //vm.startBroadcast(deployerPrivateKey);
+        uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
+        vm.startBroadcast(deployerPrivateKey);
         IBank bank = IBank(payable(0x0000000000000000000000000000000000001001));
         uint256 myBalance = bank.balance(ownerAddress, "asix");
         console.log(myBalance);
-        //vm.stopBroadcast();
+        vm.stopBroadcast();
     }
 
     function nonceUp() public {
