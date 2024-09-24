@@ -18,7 +18,7 @@ contract DeployRouter is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
         new Router{
-            salt: 0x0000000000000000000000000000000000000000000000000000000000000001
+            salt: 0x0000000000000000000000000000000000000000000000000000000000000069
         }();
         vm.stopBroadcast();
     }
@@ -63,7 +63,6 @@ contract ActionScript is Script {
         string memory jsonParams = '[{"name":"stage","value":"stage_2"}]';
 
         Router actionRouter = Router(routerContractAddress);
-        console.log(routerContractAddress);
 
         bool success = actionRouter.actionByNftOwner(
             nftContractAddress,
