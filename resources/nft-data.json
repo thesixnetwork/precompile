@@ -1,0 +1,111 @@
+{
+  "nft_schema_code": "SCHEMA_CODE",
+  "token_id": "TOKENID",
+  "token_owner": "6x1dk4vh8x995dcrqxr7ku25ykp7nc6g6f7nx6yuh",
+  "owner_address_type": "INTERNAL_ADDRESS",
+  "origin_image": "",
+  "onchain_image": "",
+  "token_uri": "",
+  "origin_attributes": [
+    {
+      "name": "background",
+      "string_attribute_value": {
+        "value": "Space"
+      },
+      "hidden_to_marketplace": false
+    },
+    {
+      "name": "skin",
+      "string_attribute_value": {
+        "value": "Hologram_Suit"
+      },
+      "hidden_to_marketplace": false
+    },
+    {
+      "name": "frame",
+      "string_attribute_value": {
+        "value": "Neon_Red_Triangle"
+      },
+      "hidden_to_marketplace": false
+    },
+    {
+      "name": "vibe",
+      "string_attribute_value": {
+        "value": "Sci-Fi"
+      },
+      "hidden_to_marketplace": false
+    },
+    {
+      "name": "tier",
+      "string_attribute_value": {
+        "value": ""
+      },
+      "hidden_to_marketplace": false
+    }
+  ],
+  "onchain_attributes": [
+    {
+      "name": "tier",
+      "string_attribute_value": {
+        "value": ""
+      },
+      "hidden_to_marketplace": false
+    },
+    {
+      "name": "alumni",
+      "boolean_attribute_value": {
+        "value": false
+      },
+      "hidden_to_marketplace": false
+    },
+    {
+      "name": "points_a",
+      "float_attribute_value": {
+        "value": 0
+      },
+      "hidden_to_marketplace": true
+    },
+    {
+      "name": "points_b",
+      "float_attribute_value": {
+        "value": 0
+      },
+      "hidden_to_marketplace": true
+    },
+    {
+      "name": "stage_count",
+      "number_attribute_value": {
+        "value": 0
+      },
+      "hidden_to_marketplace": true
+    },
+    {
+      "name": "exhibition_count",
+      "number_attribute_value": {
+        "value": 0
+      },
+      "hidden_to_marketplace": true
+    },
+    {
+      "name": "booth_count",
+      "number_attribute_value": {
+        "value": 0
+      },
+      "hidden_to_marketplace": true
+    },
+    {
+      "name": "friend_count",
+      "number_attribute_value": {
+        "value": 0
+      },
+      "hidden_to_marketplace": true
+    },
+    {
+      "name":"after_party_claimed",
+      "boolean_attribute_value": {
+        "value": false
+      },
+      "hidden_to_marketplace": false
+    }
+  ]
+}

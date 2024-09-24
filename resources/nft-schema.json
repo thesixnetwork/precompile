@@ -1,0 +1,1410 @@
+{
+  "code": "TechSauce.GlobalSummit2024",
+  "name": "Techsauce Global Summit 2024 | NFT Treasure Hunt",
+  "owner": "0xNFTOWNER",
+  "description": "This special NFT collection is exclusively for Techsauce Global Summit 2024 activities.",
+  "origin_data": {
+    "origin_base_uri": "",
+    "uri_retrieval_method": "TOKEN",
+    "origin_chain": "SIXNET",
+    "origin_contract_address": "",
+    "attribute_overriding": "CHAIN",
+    "metadata_format": "opensea",
+    "origin_attributes": [
+      {
+        "name": "background",
+        "data_type": "string",
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Background"
+          }
+        }
+      },
+      {
+        "name": "skin",
+        "data_type": "string",
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Skin"
+          }
+        }
+      },
+      {
+        "name": "frame",
+        "data_type": "string",
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Frame"
+          }
+        }
+      },
+      {
+        "name": "vibe",
+        "data_type": "string",
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Vibe"
+          }
+        }
+      },
+      {
+        "name": "tier",
+        "data_type": "string",
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Badge"
+          }
+        }
+      }
+    ]
+  },
+  "onchain_data": {
+    "nft_attributes": [
+      {
+        "name": "redemption_1_stock",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Redemption1 Stock"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "redemption_2_stock",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Redemption2 Stock"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "redemption_3_stock",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Redemption3 Stock"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exclusive_stock",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Exclusive Stock"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "unlimited_coffee",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Unlimited Coffee Claim"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exclusive_a",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 500.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Exclusive Price A"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "exclusive_b",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 500.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Exclusive Price B"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "redemption_1_a",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 150.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "NFT Treasure Hunt 1 Price A"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "redemption_1_b",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 150.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "NFT Treasure Hunt 1 Price B"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "redemption_2_a",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 250.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "NFT Treasure Hunt 2 Price A"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "redemption_2_b",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 250.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "NFT Treasure Hunt 2 Price B"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "redemption_3_a",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 350.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "NFT Treasure Hunt 2 Price A"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      },
+      {
+        "name": "redemption_3_b",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 350.0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "NFT Treasure Hunt 2 Price B"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": true
+      }
+    ],
+    "token_attributes": [
+      {
+        "name": "alumni",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "YES",
+          "bool_false_value": "NO",
+          "opensea": {
+            "trait_type": "Alumni"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "tier",
+        "default_mint_value": {
+          "string_attribute_value": {
+            "value": ""
+          }
+        },
+        "data_type": "string",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Badge"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "redemption_used",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Redemption Used"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "points_a",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Quest Hunting Points"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "points_b",
+        "default_mint_value": {
+          "float_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "float",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Professional Profile Points"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "stage_count",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Yes",
+          "bool_false_value": "No",
+          "opensea": {
+            "trait_type": "Attend Stage"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "main_stage",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Main Stage"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "stage_2",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Digital Transformation/FoodTech/HealthTech/MasterClass"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "stage_3",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Corporate Innovation/ClimateTech/MasterClass"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "stage_4",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "FinTech/Web3/MasterClass"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "stage_5",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Showcase Stage"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "stage_extra_point",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Stage Extra Point Claimed"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_count",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Exhibition Count"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_ai_board",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "AI board"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_digital_transformation_zone",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Digital Transformation Zone Powered by BE8"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_experiencing_zone",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Experiencing Zone"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_business_matching_area",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Business Matching Area"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_techsauce_coffee_bar",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Techsauce coffee Bar"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "exhibition_extra_point",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Exhibition Extra Point Claimed"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_count",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Attended Booth Count"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_six_network",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "SIX Network"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_the_mall",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "The Mall"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_oozou",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Oozou"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_builder_ai",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Builder.ai"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_zoho",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "Zoho"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_iflytek",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Attended",
+          "bool_false_value": "Available",
+          "opensea": {
+            "trait_type": "iFLYTEK"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "booth_extra_point",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Booth Extra Point Claimed"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "friend_count",
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": 0
+          }
+        },
+        "data_type": "number",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "opensea": {
+            "trait_type": "Friend Count"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "friend_reach_10",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Friend reach 10 Claimed"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "friend_reach_20",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Friend reach 20 Claimed"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "friend_reach_30",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "TRUE",
+          "bool_false_value": "FALSE",
+          "opensea": {
+            "trait_type": "Friend reach 30 Claimed"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "after_party_claimed",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Yes",
+          "bool_false_value": "No",
+          "opensea": {
+            "trait_type": "Claimed After Party Privileges"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      },
+      {
+        "name": "check_alumni",
+        "default_mint_value": {
+          "boolean_attribute_value": {
+            "value": false
+          }
+        },
+        "data_type": "boolean",
+        "required": true,
+        "display_value_field": "value",
+        "display_option": {
+          "bool_true_value": "Yes",
+          "bool_false_value": "No",
+          "opensea": {
+            "trait_type": "Is Alumni Checked"
+          }
+        },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false
+      }
+    ],
+    "actions": [
+      {
+        "name": "attend_main_stage",
+        "desc": "Attend main stage event",
+        "params": [],
+        "when": "meta.GetBoolean('main_stage') == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 100.0 )",
+          "meta.SetBoolean('main_stage', true)",
+          "meta.SetNumber('stage_count', meta.GetNumber('stage_count') + 1)"
+        ]
+      },
+      {
+        "name": "attend_stage",
+        "desc": "Attend stage event",
+        "params": [
+          {
+            "name": "stage",
+            "desc": "Stage attribute",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "meta.GetBoolean(params['stage'].GetString()) == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 50.0 )",
+          "meta.SetBoolean(params['stage'].GetString(), true)",
+          "meta.SetNumber('stage_count', meta.GetNumber('stage_count') + 1)"
+        ]
+      },
+      {
+        "name": "attend_exhibition",
+        "desc": "Attend partner exhibition",
+        "params": [
+          {
+            "name": "exhibition",
+            "desc": "exhibition attribute",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "meta.GetBoolean(params['exhibition'].GetString()) == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 20.0)",
+          "meta.SetBoolean(params['exhibition'].GetString(), true)",
+          "meta.SetNumber('exhibition_count', meta.GetNumber('exhibition_count') + 1)"
+        ]
+      },
+      {
+        "name": "attend_booth",
+        "desc": "Attend to booth",
+        "params": [
+          {
+            "name": "booth",
+            "desc": "booth attribute",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "meta.GetBoolean(params['booth'].GetString()) == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 20.0)",
+          "meta.SetBoolean(params['booth'].GetString(), true)",
+          "meta.SetNumber('booth_count', meta.GetNumber('booth_count') + 1)"
+        ]
+      },
+      {
+        "name": "claim_extra_stage_point",
+        "desc": "Claim extra stage point",
+        "params": [],
+        "when": "meta.GetNumber('stage_count') >= 5 && meta.GetBoolean('stage_extra_point') == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 100.0)",
+          "meta.SetBoolean('stage_extra_point', true)"
+        ]
+      },
+      {
+        "name": "claim_extra_exhibition_point",
+        "desc": "Claim extra exhibition point",
+        "params": [],
+        "when": "meta.GetNumber('exhibition_count') >= 5 && meta.GetBoolean('exhibition_extra_point') == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 100.0)",
+          "meta.SetBoolean('exhibition_extra_point', true)"
+        ]
+      },
+      {
+        "name": "claim_extra_booth_point",
+        "desc": "Claim extra booth point",
+        "params": [],
+        "when": "meta.GetNumber('booth_count') > 5 && meta.GetBoolean('booth_extra_point') == false",
+        "then": [
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 150.0)",
+          "meta.SetBoolean('booth_extra_point', true)"
+        ]
+      },
+      {
+        "name": "add_friend",
+        "desc": "Add friend",
+        "params": [
+          {
+            "name": "count",
+            "desc": "amount for friend",
+            "data_type": "number",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "params['count'].GetNumber() > 0",
+        "then": [
+          "toAdd = params['count'].GetNumber() * 25.0",
+          "meta.SetFloat('points_b', meta.GetFloat('points_b') + toAdd)",
+          "meta.SetNumber('friend_count', meta.GetNumber('friend_count') + params['count'].GetNumber())"
+        ]
+      },
+      {
+        "name": "claim_friend_reach_10",
+        "desc": "Claim extra reach 10 friend point",
+        "params": [],
+        "when": "meta.GetNumber('friend_count') >= 10 && meta.GetBoolean('friend_reach_10') == false",
+        "then": [
+          "meta.SetFloat('points_b', meta.GetFloat('points_b') + 50.0)",
+          "meta.SetBoolean('friend_reach_10', true)"
+        ]
+      },
+      {
+        "name": "claim_friend_reach_20",
+        "desc": "Claim extra reach 20 friend point",
+        "params": [],
+        "when": "meta.GetNumber('friend_count') >= 20 && meta.GetBoolean('friend_reach_20') == false",
+        "then": [
+          "meta.SetFloat('points_b', meta.GetFloat('points_b') + 100.0)",
+          "meta.SetBoolean('friend_reach_20', true)"
+        ]
+      },
+      {
+        "name": "claim_friend_reach_30",
+        "desc": "Claim extra reach 20 friend point",
+        "params": [],
+        "when": "meta.GetNumber('friend_count') >= 20 && meta.GetBoolean('friend_reach_30') == false",
+        "then": [
+          "meta.SetFloat('points_b', meta.GetFloat('points_b') + 150.0)",
+          "meta.SetBoolean('friend_reach_30', true)"
+        ]
+      },
+      {
+        "name": "claim_unlimited_coffee",
+        "desc": "Claim Unlimited Coffee",
+        "params": [],
+        "when": "meta.GetString('tier') != 'Staff'",
+        "then": [
+          "meta.SetNumber('unlimited_coffee', meta.GetNumber('unlimited_coffee') + 1)"
+        ]
+      },
+      {
+        "name": "redeem_prize",
+        "desc": "redemption points for prize",
+        "params": [
+          {
+            "name": "stock",
+            "desc": "redemption stock",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "meta.GetString('tier') != 'Staff' && meta.GetBoolean('redemption_used') == false && meta.GetFloat('points_a') >= meta.GetFloat(params['stock'].GetString() +'_a') && meta.GetFloat('points_b') >= meta.GetFloat(params['stock'].GetString() +'_b')",
+        "then": [
+          "meta.SetBoolean('redemption_used', true)",
+          "meta.SetFloat('points_a', meta.GetFloat('points_a') - meta.GetFloat(params['stock'].GetString() +'_a'))",
+          "meta.SetFloat('points_b', meta.GetFloat('points_b') - meta.GetFloat(params['stock'].GetString() +'_b'))",
+          "meta.SetNumber(params['stock'].GetString() + '_stock', meta.GetNumber(params['stock'].GetString() + '_stock') + 1)"
+        ]
+      },
+      {
+        "name": "claim_after_party",
+        "desc": "Claim After Party",
+        "params": [],
+        "when": "(meta.GetString('tier') == 'VIP' || meta.GetString('tier') == 'Speaker'|| meta.GetString('tier') == 'Investor') && meta.GetBoolean('after_party_claimed') == false || meta.GetString('tier') != 'Staff' && meta.GetBoolean('after_party_claimed') == false && meta.GetNumber('stage_count') >= 5 && meta.GetNumber('exhibition_count') >= 5 && meta.GetNumber('booth_count') >= 6 && meta.GetNumber('friend_count') >= 10",
+        "then": [
+          "meta.SetBoolean('after_party_claimed', true)",
+          "meta.SetImage(meta.ReplaceAllString(meta.GetImage(),'normal','afterparty'))"
+        ]
+      },
+      {
+        "name": "verify_alumni",
+        "desc": "verify user is alumni or not",
+        "params": [
+          {
+            "name": "is_alumni",
+            "desc": "true/false",
+            "data_type": "number",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "meta.GetBoolean('check_alumni') == false",
+        "then": [
+          "isTrue = (params['is_alumni'].GetNumber() > 0)",
+          "meta.SetBoolean('alumni', isTrue)",
+          "meta.SetImage(meta.ReplaceAllString(meta.GetImage(),'nonalumni','alumni'))",
+          "meta.SetBoolean('check_alumni', true)"
+        ]
+      },
+      {
+        "name": "bypass_after_party",
+        "desc": "By Pass After Party",
+        "params": [],
+        "when": "true",
+        "then": [
+          "meta.SetBoolean('after_party_claimed', true)",
+          "meta.SetImage(meta.ReplaceAllString(meta.GetImage(),'normal','afterparty'))"
+        ]
+      },
+      {
+        "name": "change_price",
+        "desc": "Change Price of redemption",
+        "params": [
+          {
+            "name": "stock",
+            "desc": "redemption stock",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          },
+          {
+            "name": "points_a",
+            "desc": "New Hunt Point Value",
+            "data_type": "number",
+            "required": true,
+            "default_value": ""
+          },
+          {
+            "name": "points_b",
+            "desc": "New Social Point Value",
+            "data_type": "number",
+            "required": true,
+            "default_value": ""
+          }
+        ],
+        "when": "true",
+        "then": [
+          "new_points_a = params['points_a'].GetNumber()",
+          "new_points_b = params['points_b'].GetNumber()",
+          "meta.SetFloat(params['stock'].GetString() +'_a', 0.0 + new_points_a)",
+          "meta.SetFloat(params['stock'].GetString() +'_b', 0.0 + new_points_b)"
+        ],
+        "allowed_actioner": "ALLOWED_ACTIONER_SYSTEM_ONLY"
+      }
+    ]
+  },
+  "system_actioners": [
+    "6x1wckm9su3z48k7a4qs6gfuwh5c7gyn7a86agllu",
+    "6x1h4xn0u7cg3zqzdxkz0tkjsp2fg4lqvug09wa4p",
+    "6x1zgg5t44gt8z5nkegch20zkv648wn6aw3lza4qm",
+    "6x1hvdgjmft7sscgzhzkyd37e5cccrqzzrdpf06ar",
+    "6x15ccpwwdcx6fngzxpvzqeqeq42alp2cn3gsak5f",
+    "6x1gh9uslth7nyk289raxlglcr975e0pcz3s5qruy",
+    "6x19n0qrgvrqg2dvqdpksk3sqcjqgpwa44fac4yek",
+    "6x1sf895pclglff5dg7uy9nulkeyxf4jg7qkkuz9v",
+    "6x1m08cm2mfhs9f5s3avd4kpeq4c58s3jz0urqkqy",
+    "6x1xn4tuxmzynv3y2hy5cum03j5hqmveznn8z8hh3",
+    "6x1ykupdc075dm0xag60cq40f05glejuvgcvvc2ky",
+    "6x16yglax6dmfqmjkr673c98wgx283mfgt70mddvz",
+    "6x1wsvjx3dc3p40d2te9p92mut4xktc0p9tl5qsgj",
+    "6x1pdmv3zw9xd0c893hfjjkhda4gresx2lndpeszs",
+    "6x1q35pyr8ermmv9lyjrguu0zhemcae7uzxxunl0d",
+    "6x19rye84gn4lg4eu878sx4a6k6s40x4j82gl94y2",
+    "6x1lggf2zqlj7cs67u9l6dx8g7qktr35jssazxs0s",
+    "6x15ca5mup2yxnc44wh7fvufl3eumq7r2terk5dw5",
+    "6x1uxr3xzq66h94442hx6w82jw997gwwdzcgwd02f",
+    "6x1r7wgacy26es4f3hr4x048tnkgn9hp06la0zcsc",
+    "6x1tvf5e2dzja6kfrl4jvg3ca6h4pwqhsqfhjumqu",
+    "6x179tajdw6nntknngdxjt9hq7n2lk9gzhxg3am53",
+    "6x1uh4r6fuw3t6t6adlq2d37yxwnrqstc0q5s6kk9",
+    "6x1pjp2pdlz9n50sggec7qadrjt0drnc4lq6udnmh",
+    "6x1c62uhezyx0rfue06x55d8zzfx957a5kwyseu4q",
+    "6x15sz0d3sfaw5x75pxjzpp46xtqr22hj3ww0z7xu",
+    "6x1f08qqyq8exjxrpc49dhr0umjq9k7mlfpu460zf",
+    "6x12g8qlky93ptgudkc98nlkaehtyry0h442eqg9x",
+    "6x1frtgc2eamexp6pv2ayl59uvnw9xdl6xfjj3lt7",
+    "6x1sx90m2drt9tvqka6mullzyp65qkvacauwmwc4t",
+    "6x1n7z06jf7u2km3zw58w5gh9kxvudwfn09dh5rhx",
+    "6x1g4ln76shmcr6u6h9f4x5s2qhyuv5g0cjulukde",
+    "6x16uwwpl2uum3dz46qnaeazztuwx97803e9sk6wd",
+    "6x1kr589g3q2vs2gda3s7clztxlp76ha8hm7aqv0g",
+    "6x1x9l94edxh6ycz9p0fa03q8j7pelynu5xf4tfme",
+    "6x1rye3y9jarvaxg8pgwddyrxyw4a23c907tdfqzt",
+    "6x1f6mm4k6u4nf4kmejm4u0qtfuyvlcgsfz2m0r3r",
+    "6x1culdrc7zz8894zc9322vt0ncgtetg4at0jtuty",
+    "6x180sutrxn2awrmrjw9s9gr6hc5q7n57zcqqpqj4",
+    "6x1gdxqsncgxwu6arvn938c0pl34j6gw53yg9fy5d",
+    "6x1734j730mxgmcty25g9r8dx0mv3x6yh9v7ck30d",
+    "6x1atsjtjjp52cvmrtpzqvr5c00pydcm466jlhnz8",
+    "6x1q65rs3dqhskyqu3qf8qq3haduaj27ud5xhd4v7",
+    "6x12jm3dlqlhm3mf83xk2yr3ekl7wzvn4p5ju2mme",
+    "6x1c0scrkr3wrhrqd4q498amwczxnhd2f9v74fdl7",
+    "6x1f56dhj7vjdl3ykc50560dwnm9d3azsv7hkwxqh",
+    "6x1xxllz78suyg0a3y5zr9akzcqqlhzjgp0j0gjdz",
+    "6x1x7lyts5sk6k6zj84xfyue046scy802me6zae77",
+    "6x1ga66239jtfcntpkm5muw4h4muzx42zr7cz6ree",
+    "6x15hwglwkpfnwg2c7da5wyqxmpcmcelg5r24zcv0",
+    "6x1tgyaa5y4y0wxzys4aqc688tcy0mykpyk90thrh",
+    "6x1x7hup0k6d4uqdm2mnr96x2hykwksjhm5e3u8nl",
+    "6x108zehnjgyc49uc3c29dtyeq6wmktgqu7m7t0nx",
+    "6x1ah2s6deq29etljzcquj3cx9ufucffetsmpdy8y",
+    "6x1xcdww65990awzg24jws69uzjv5ptu8sdgl58tn",
+    "6x1ggzfrkar2yr5epd0d4hyympr7wl9y07fz4xnpw",
+    "6x1q4gf5nsc44whmjvcn56282497ws3rd6zmerhr8",
+    "6x1j66w666qdetvnzw55n9jm67ahwn8f409fssyx6",
+    "6x137czltq9ph9e0wy9ma73am00vcqm7909d6kf0k",
+    "6x12udqvjs8sfnxljrn4nz8cj8vnmh9cthmcjdz4n",
+    "6x1d7yjuc734wjhph9ne9zh88dc7zh8674sc795d6",
+    "6x1p4z5v6dlllvavpctwnulx7384kyyyfp5mv6ary",
+    "6x16rm98xc63mf0sek4mceqlh6hjumavgflx7ul9p",
+    "6x10nt32petk24g7rncu4xwe82tqfmgmm96erfuh4",
+    "6x1kaluyqhfrdqgr00uh70jkp0g7czrf48tluwtcq",
+    "6x18kpxug0qt2qswnhvqzyr7xvk3mqjcprx2cp75m",
+    "6x1nw7wpruld4l6lk0n48y76azrcxwe4kcju7u44n",
+    "6x180d6px999f820dq6uvjk432ezhnt0zrzx5xtr8",
+    "6x1m6x77zkvrstvrt0zu2gq7atcz39mvlwv90r9ss",
+    "6x1zzmq7u68wk2z8lyu8xsjtrpqwmekwsrkcrley7",
+    "6x1cgn5kedjy6sq359kx8kd9ktz4jy3um48azjuc0",
+    "6x183uxhquzvzxtqsvv84xne6ysxdrsqw5j3h9sa4",
+    "6x1dz5lx999wyg05mn3fzrffwpzh4dh9ujl2mm54l",
+    "6x12mp8qjp7pge6j22g08nrchhm3hx7pjswqgxjk0",
+    "6x1d23qnj285hth0laugvr4ckm58ges4vmljnqh9y",
+    "6x172g6mgaz4tpqxdavgz5x3ntew00n45avlxsmq6",
+    "6x1rs5qv2uszu99g4slha2qp8cdmucg7tvtmakr6s",
+    "6x1a5w6gna2wmu626dezvh45xtpfmuq9dfqfaxfq7",
+    "6x19ftljulez7gmvsqw2vxkvsf84fyjd8t35ehh84",
+    "6x1wvj4m4hjkd37teztfencas3qq9c6ddmfdlspfq",
+    "6x187skz4na6nt2gskxqgcze5l3qd5zqpvvkzlp0j",
+    "6x1trys4wjvqcn36gqwne4vsnt0llf3ess5ar4mna",
+    "6x16qwg8yw8nkdve06cnhv7m0xjt5m2j74dx3p7kv",
+    "6x19nunh5rcsh28zrythzxzgc00tsa2unupndmpx2",
+    "6x1hn6kyccnmwu0aq0wqy8ys2qcx4hg9mwg3jr9zl",
+    "6x1g3tzaplxuuq5f5ektpf0lz7qdjrklpgl7vhs5a",
+    "6x124wpmsmfmeq0khq04l0yklfnt72v5tusf4hlx4",
+    "6x1492udxpqms79z6l6kdar3y9erjk65lg23lhuhy",
+    "6x1v0pnfcuxuyg3x2rvj7wtppka87u9xk5e64h4ge",
+    "6x1hafkgzytntqyf6ag8ey67rqdnyp8xcjqzp432x",
+    "6x1pc66uj5pw57agfhe9kknqrd68mv6j6uunu76hj",
+    "6x1w8jx959eydfm0admvazx0rm7dd2r8r3crxjgnn",
+    "6x1nfm657g0mt6nkzvuy6yhju5c7tts5dk3l5fqwz",
+    "6x1vl8atyyqtzhdwhzcx6v0qq9hqqeclhes7m0pry",
+    "6x1270qgqvj3dgtp43qreaavdlhlh7c40940w0j83",
+    "6x1crjwfw24xrg2lqjwwsyrls9krw3ht7sr5x8age",
+    "6x1350sy8p3glf3xp7wz4m75qe2dgrd77cdcgddzz",
+    "6x15pqxh8ek93h52a6culnypmp8q50738ss9uwmxn",
+    "6x1uuzrshjv7jk9dmfamfuurgr0lf7nnfhjj4mdft",
+    "6x1aclegy9tysrye6znhu7nau9gl3w4ysefad02yu",
+    "6x1kdecvz4jg75hh2xwqulrdepf2gt8xvnmwx839u",
+    "6x1lv9nq0ex828chtz6h2adpnzms66rzqg6j3rlya",
+    "6x1zykznstyumyf5vl3kahrhqu57mtt3268jqnjmw",
+    "6x1fpjlqr7w4phve702rpq7lgnwd6p4uxlnysv9q8",
+    "6x19dr4zelkucx3cwypr9ttl6m5gllw47exnuety4",
+    "6x1mqvu0z0zfc3pdv2dhxfytu6897gwv40vfx4sn8",
+    "6x1zsr75y4pgkn4fy9p4us3598lnh486h7ynq84mf",
+    "6x1n74ax9juza4je3dd9e073syu9pfcytqdx8xjt4",
+    "6x1249dz3r7ztwkvjewqtxrxjvhzk05tpndupfged",
+    "6x1khu36ms4rv6mnspz0cs4kumdu0dhe3unudnnxa",
+    "6x19k9vrwqcth7npz8nmkl5j8f4zazl8v50r7jsuz",
+    "6x167hksq5nly5t6mzuuh743qd3ztxkrs8jh2cadh",
+    "6x17p6jyg0kxw254jcqjx3z2xrydgjpnkuapqa2u2",
+    "6x1kynzh550dmka4ckpd0jhxmswtx62q634g4lxkt",
+    "6x1vxqtjtnsk3qe7tms4jsx332vvh89dxqugwct3l",
+    "6x1vw2ag5mfhs388nyh5rn92fav2fh9l7zlfcmulq",
+    "6x1j5jc6ncsxwg2uuxjatmn0whh7szuq4ut5cvdnu",
+    "6x1mamsffc7adcfllf3mgk0hwzqtecms2j3c9h090",
+    "6x1agfkm5munrnyqd4qsmg3f6qqa3rw4ll9u8yg5k",
+    "6x15cwtam525gplgfuyt3sfgz74rl3ermx5fqkqsq",
+    "6x18u64n5vtrd9mmure55tes24qztrhzh3npyawgg",
+    "6x175jmf62yrkvpn2ekjeem4aq2pe3qjhq2yzphwp",
+    "6x1gm5qnvrrnvt5zpwt4nzayc5d6zus6cmt8cf4gt",
+    "6x1lngffdcwh463a9qxzx4465m0d3usv60zxpug8u",
+    "6x1m8h7f8tzl0qdeq5n5qrgz6rek6hkkafy9l59h3",
+    "6x12yn53tutk4yh83x3cl8fhug75yf7chgtzex7ns",
+    "6x17wk6eu6t0pa2ygxayj6m8lw558n3ckmpard33z",
+    "6x1hfsvgt69ucak99psvpsrmmaag7spldwvqsgczc",
+    "6x1juz06c2a5ex4s5zamd47q4smv5dqlrnr556cke",
+    "6x1h8ykzmv7nkpf3l5g9gj44axllwhxvjr96aqaud",
+    "6x1gmxwwfv0cy0ygqnwwa9vele6u752hfqzwup452",
+    "6x1cs3kkkd0s2ts402hernypedvsgqlu97ke56prw",
+    "6x1c9vx0kz2dwkrzuk8e48n6y5a526wkz6wsd4yh7",
+    "6x1qz42jf6p2f4m6tdcehfq8hx3sljc9swf3cqrag",
+    "6x1hmam3tl9megdfh6ju2h98gx3ul0gn8gqhlp4ae",
+    "6x1krewrc5ey8z7jg344yehdswj3tclt08puadsrl",
+    "6x1jej3009xwaqtytaue062l0wyp03vfaldh7cv3m",
+    "6x140eh7vfs8zzkd35v4rwva5eh3gkguuzh37wlux",
+    "6x1t4tcxklepqg0duen46ef0n7p38pqsdslsyjqkv",
+    "6x12p6aujsftwkryvy0vh4ghraaa4zulyrj8q4wf7",
+    "6x1un2h9nuxn7mvphpsh4fqgrw0gl0hjakuct6pvs",
+    "6x1f3vhdwy2dz0rax3fku4ptfr3fwmtthn5dnerk2",
+    "6x14amaxe48d390pmz8d3mkdl67gnlj0gh6zycs4z",
+    "6x1hztzxu4m5tf70ggelccq29k7a6fvf7zu7sgm0y",
+    "6x1ulr2uarmqh06gdrr5ruf23chkwcs7rnyrgzv8m",
+    "6x1xn7yt6djw53jx458ffnted3s5qkaalk77s6klw",
+    "6x1xta0vda767e405cy4yusxydx0grq8m2rkwj6kz",
+    "6x1c3pngagmd6tev4waucypzaf0y66ql3rezjae4l",
+    "6x1efnp83lqfv3tpsz3fjfusvkmve2y42qcezksyy",
+    "6x1vfmh03y8vq3ngwuf0t9a0cyvz9weycsvvtj9kn",
+    "6x1lvlh8lkpvq975z57hv2d86tdfvgpwtu7agvthv",
+    "6x1dtum45rtv7mwm0lwtz8n5gj60tsh05ckdjg85k",
+    "6x1fu74e20tvnz57v0yst4yjkw6whpv6g3f7pftvl",
+    "6x10udy3kccq3udar8jjchaezxxgjkk6g6dw5pgw7",
+    "6x1mjeu88qk3r3ppaz64ehd6hd93xgja6fqtmw6t5",
+    "6x1zxnayfzt9aljjd4rqqrmkgwhekz44px63ejny8",
+    "6x1a0rskup6zkactasgsmvcmc202xtgqpz6ysq0xr",
+    "6x1tpckte94q5459z99mzzhgxhgx48yzzq7cm06lj",
+    "6x1lj6vj6h8y54w6dp4kjwf429mq0f9elu5rfe2fk",
+    "6x1569xtfgzmlz690mpkxhrxkcqvys2e6llnl0n6h",
+    "6x183zpd54xglymcp45n2k9yw9w8nzlf4d069jgfr",
+    "6x12p990mktf82lmgv2jugay2gnk23du7njcnsdc0",
+    "6x19u3xfc2f94xru7d5r36pw2888tpcfn9re746y2",
+    "6x10wlp0y9pufwgvwdawu8r2efpzjyutanr7aevzh",
+    "6x18q3a6afwm860rlyzmm8p0tzaycpd9jhh5qvql9",
+    "6x1cwl9eyllzrjzd47w48y0xktvzs7mp773psy34r",
+    "6x1ult6zgejrre6aky9pzu98lxmx59lt703hgmt73",
+    "6x1ce52xcpxwwjrh069fvn0e36pmpvrq08dwjs7ek",
+    "6x1qaa87lld8c520jrjale7kxwsen707d32ayn3zu",
+    "6x1tzwu5hymdh930cvjy9y9r0qc8mfcqqytg4glzz",
+    "6x1ravlet54n2st54xvzprax2j3lj8fau3c6rpda0",
+    "6x1zdn4fhnm6tnsx5g98zqtwrxegddgppw29sjwvn",
+    "6x10qpxfeackmg8k8maynrxed5lxxafdnsw84uq2y",
+    "6x1u9nn5e2r7h20rplswrjwtu2zjcm5rxfcn78shd",
+    "6x1papnfvslgj98pmtd2jgxy5hacva4kzjjpcpdf3",
+    "6x1lwhutx8ges9wx2ezcpvk9um3tjmc2t2aqpswkp",
+    "6x1f7v0lwql4yp3tqpxdv2y2y848rcge5rc23gpmh",
+    "6x1hn5j9g8q30mk5uu72z3sundm65lk39s7qyytdp",
+    "6x1e8g8wes47kqpjfepf0zyhgczt42a7urgcskp4j",
+    "6x1ygdtjxes0gpm8hwuleu46ufq87g9cnka79yl5n",
+    "6x165pqlfxtkf9pkjszyk9lrsarf6sa8rqyl5z9vx",
+    "6x1e87n8wetj2l6n9w23lmsxmrlj9aa79974pn7wx",
+    "6x1athlp0w0z4rg7e2mkvmzsuzhdulejra96vt0ku",
+    "6x1fvlwzeu4zlx4uw9zcd4m7cakyx558gz4a4x6l4",
+    "6x1zn4lj0crxm7ll0mgp20d23q08ks06d29g08y0r",
+    "6x1l9a283ulc658vd9u3n3c8249u0qa7xp93p74h8",
+    "6x1rkymtu7a5a3x8xkuryr6v8ejxg20992cty44af",
+    "6x1zhaq5qd7t7sf9sruxmyrfrfz622h4alnl6z8xa",
+    "6x1wu3fdpywjpx86puu2afs7wkj2pxrfrvf73sjjw",
+    "6x1p700qgzykzqyzm9q8wnp2tlj8guuvs8pqf2emk",
+    "6x1a4thzt3zxdn63nhj3x0w92sdzpaghlfgcja84p",
+    "6x1sgw2s9g6wj8tl67mp9nmn6vpdaqc4j9kd4d2xm",
+    "6x13yjfhhph5e7ruz0st8kqkfdf4jngqhftvtd63u",
+    "6x1gdqeqcxn5sqyjpk3mcggvpltux43y09h4spkw5",
+    "6x1farhe553kgmh4u4r7w9zfrhx52cmf4e5q7u92n",
+    "6x1zasckffxd2s73w3w5yxnmn3tzdwg3w88y940yr",
+    "6x17sznnudkqh6z5nh0ur9l3nx94ehq24uh6h74f2",
+    "6x1q4ukqf3zsg9xxj0g840lf0mhcla0ttm3j5wypc",
+    "6x17088g39eklp35tlw0wvy79eqm2gjtsd99hgvk3",
+    "6x1xtvpdke5qjfgw6d8re3hvhvadegdur2v3rfsa8"
+  ],
+  "mint_authorization": "system"
+}
