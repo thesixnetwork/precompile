@@ -27,12 +27,14 @@ contract DeployRouter is Script {
 contract ActionScript is Script {
     address ownerAddress;
     uint64 currentNonce;
+    string nftSchema;
     address routerContractAddress;
     address nftContractAddress;
 
     function setUp() public {
         ownerAddress = vm.envAddress("OWNER");
         currentNonce = vm.getNonce(ownerAddress);
+        nftSchema = vm.envString("NFT_SCHEMA");
 
         string memory routerContractInfoPath = "./broadcast/ActionRouter.s.sol/666/run-latest.json";
         string memory routerContractInfo = vm.readFile(routerContractInfoPath);
@@ -57,8 +59,7 @@ contract ActionScript is Script {
 
         // Initialize variables
         string memory actionName = "attend_stage";
-        string memory tokenId = "4";
-        string memory nftSchema = "TechSauce.GlobalSummit2024";
+        string memory tokenId = "1";
         string memory refId = vm.toString(vm.getNonce(ownerAddress));
         string memory jsonParams = '[{"name":"stage","value":"stage_2"}]';
 

@@ -99,7 +99,7 @@ interface INFTMNGR {
 
     function setUriRetreival(
         string memory nftSchemaName,
-        string memory newOriginContract
+        uint32 newMethod
     ) external returns (bool success);
 
     function showAttribute(
