@@ -1,9 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
+
 import {IERC721} from "openzeppelin-contracts/token/ERC721/IERC721.sol";
 import {INFTMNGR, NFTMNGR_PRECOMPILE_ADDRESS} from "./INFTManager.sol";
 
 contract Router {
+    error NotNFTOwner();
+    error ModuleRejected();
+    error TransactionFailed();
+
     function actionByNftOwner(
         address nftContractAddress,
         string memory nftSchemaName,
@@ -14,7 +19,9 @@ contract Router {
     ) public returns (bool success) {
         uint256 tokenIdNumeric = stringToUint(tokenId);
         address owner = IERC721(nftContractAddress).ownerOf(tokenIdNumeric);
-        require(msg.sender == owner, "Caller is not the owner of the NFT");
+        if (msg.sender != owner) {
+            revert NotNFTOwner();
+        }
 
         bytes memory data = abi.encodeWithSignature(
             "actionByAdmin(string,string,string,string,string)",
@@ -27,7 +34,9 @@ contract Router {
 
         bool done = actionSend(data);
 
-        require(done, "Module reject");
+        if (!done) {
+            revert ModuleRejected();
+        }
 
         // Emit an event or perform other logic here
         emit ActionPerformed(
@@ -41,9 +50,7 @@ contract Router {
         return true;
     }
 
-    function stringToUint(
-        string memory s
-    ) internal pure returns (uint256 result) {
+    function stringToUint(string memory s) internal pure returns (uint256 result) {
         bytes memory b = bytes(s);
         uint256 i;
         result = 0;
@@ -65,7 +72,9 @@ contract Router {
 
     function actionSend(bytes memory datas) public payable returns (bool) {
         (bool success, ) = NFTMNGR_PRECOMPILE_ADDRESS.call{value: 0}(datas);
-        if (!success) revert("transaction failed");
+        if (!success) {
+            revert TransactionFailed();
+        }
 
         return success;
     }

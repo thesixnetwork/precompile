@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-address constant NFTMNGR_PRECOMPILE_ADDRESS = 0x0000000000000000000000000000000000000055;
+address constant NFTMNGR_PRECOMPILE_ADDRESS = 0x0000000000000000000000000000000000001055;
 
 INFTMNGR constant NFTMNGR_CONTRACT = INFTMNGR(NFTMNGR_PRECOMPILE_ADDRESS);
 
@@ -99,7 +99,7 @@ interface INFTMNGR {
 
     function setUriRetreival(
         string memory nftSchemaName,
-        uint32 newMethod
+        string memory newOriginContract
     ) external returns (bool success);
 
     function showAttribute(

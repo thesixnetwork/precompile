@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Script.sol";
-import {BridgePrecompile, IBridge} from "../src/IBridge.sol";
+import {BridgePrecompile, IBridge, BRIDGE_PRECOMPILE_ADDRESS} from "../src/IBridge.sol";
 
 contract SendToCosmosScript is Script {
     address ownerAddress;
@@ -18,7 +18,7 @@ contract SendToCosmosScript is Script {
         vm.startBroadcast(deployerPrivateKey);
 
         // Initialize variables
-        address contractAddress = 0x0000000000000000000000000000000000000069;
+        address contractAddress = BRIDGE_PRECOMPILE_ADDRESS;
         string memory destinationAddress = "6x13g50hqdqsjk85fmgqz2h5xdxq49lsmjdwlemsp";
         uint256 amount = 100 * 1e18;
 
