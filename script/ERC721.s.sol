@@ -72,7 +72,7 @@ contract DeployScript is Script {
     uint64 totalToken;
     uint64 roundFloor = 50;
     uint256 minted = 0;
-    uint64 nftNumber = 50;
+    uint64 nftNumber = 10;
 
     function setUp() public {
         ownerAddress = vm.envAddress("OWNER");

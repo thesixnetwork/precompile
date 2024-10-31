@@ -36,7 +36,7 @@ contract ActionScript is Script {
         currentNonce = vm.getNonce(ownerAddress);
         nftSchema = vm.envString("NFT_SCHEMA");
 
-        string memory routerContractInfoPath = "./broadcast/ActionRouter.s.sol/666/run-latest.json";
+        string memory routerContractInfoPath = "./broadcast/ActionRouter.s.sol/98/run-latest.json";
         string memory routerContractInfo = vm.readFile(routerContractInfoPath);
         bytes memory routerJsonParsed = vm.parseJson(
             routerContractInfo,
@@ -44,7 +44,7 @@ contract ActionScript is Script {
         );
         routerContractAddress = abi.decode(routerJsonParsed, (address));
 
-        string memory nftContractInfoPath = "./broadcast/ERC721.s.sol/666/run-latest.json";
+        string memory nftContractInfoPath = "./broadcast/ERC721.s.sol/98/run-latest.json";
         string memory nftContractInfo = vm.readFile(nftContractInfoPath);
         bytes memory nftJsonParsed = vm.parseJson(
             nftContractInfo,

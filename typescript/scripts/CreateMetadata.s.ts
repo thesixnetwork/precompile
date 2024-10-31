@@ -61,7 +61,7 @@ ORIGINAL_METADATA.nft_schema_code = schemaCode;
 
 async function main() {
     
-  const precompileContract = "0x0000000000000000000000000000000000000055";
+  const precompileContract = "0x0000000000000000000000000000000000001055";
   const tokenID = "1"
   const nftmngr = new ethers.Contract(
     precompileContract,

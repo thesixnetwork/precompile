@@ -18,8 +18,8 @@ exmapleSchema.code = schemaCode;
 
 async function main() {
     
-  const precompileContract = "0x0000000000000000000000000000000000000055";
-  const nftContractAddress = "0x3753C81072A56072840990D3D02f354Efb7425A3";
+  const precompileContract = "0x0000000000000000000000000000000000001055";
+  const nftContractAddress = "0x0ecE60ba8131f92edDF9BaC35aEd6c2EBaE95713";
 
   exmapleSchema.origin_data.origin_contract_address = nftContractAddress
 

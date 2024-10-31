@@ -1,4 +1,4 @@
 export const CONSTANTS = {
-  "RPC":"http://35.247.160.241:8545",
+  "RPC":"https://sixnet-rpc-evm.sixprotocol.net:443",
   "SALT": 0x0000000000000000000000000000000000000000000000000000000000000069
 }
