@@ -1,111 +1,54 @@
 {
-  "nft_schema_code": "SCHEMA_CODE",
+  "nft_schema_code": "test_dee.passV1",
   "token_id": "TOKENID",
-  "token_owner": "6x1dk4vh8x995dcrqxr7ku25ykp7nc6g6f7nx6yuh",
-  "owner_address_type": "INTERNAL_ADDRESS",
-  "origin_image": "",
+  "token_owner": "",
+  "owner_address_type": "ORIGIN_ADDRESS",
+  "origin_image": "https://picsum.photos/200/300",
   "onchain_image": "",
   "token_uri": "",
-  "origin_attributes": [
-    {
-      "name": "background",
-      "string_attribute_value": {
-        "value": "Space"
-      },
-      "hidden_to_marketplace": false
-    },
-    {
-      "name": "skin",
-      "string_attribute_value": {
-        "value": "Hologram_Suit"
-      },
-      "hidden_to_marketplace": false
-    },
-    {
-      "name": "frame",
-      "string_attribute_value": {
-        "value": "Neon_Red_Triangle"
-      },
-      "hidden_to_marketplace": false
-    },
-    {
-      "name": "vibe",
-      "string_attribute_value": {
-        "value": "Sci-Fi"
-      },
-      "hidden_to_marketplace": false
-    },
-    {
-      "name": "tier",
-      "string_attribute_value": {
-        "value": ""
-      },
-      "hidden_to_marketplace": false
-    }
-  ],
+  "origin_attributes": [],
   "onchain_attributes": [
     {
-      "name": "tier",
+      "name": "name",
       "string_attribute_value": {
         "value": ""
-      },
-      "hidden_to_marketplace": false
+      }
     },
     {
-      "name": "alumni",
-      "boolean_attribute_value": {
-        "value": false
-      },
-      "hidden_to_marketplace": false
+      "name": "organization_id",
+      "string_attribute_value": {
+        "value": ""
+      }
     },
     {
-      "name": "points_a",
-      "float_attribute_value": {
-        "value": 0
-      },
-      "hidden_to_marketplace": true
+      "name": "description",
+      "string_attribute_value": {
+        "value": ""
+      }
     },
     {
-      "name": "points_b",
-      "float_attribute_value": {
-        "value": 0
-      },
-      "hidden_to_marketplace": true
-    },
-    {
-      "name": "stage_count",
+      "name": "wat_phra_kaew_day_pass",
       "number_attribute_value": {
-        "value": 0
-      },
-      "hidden_to_marketplace": true
+        "value": 3
+      }
     },
     {
-      "name": "exhibition_count",
+      "name": "wat_arun_day_pass",
       "number_attribute_value": {
-        "value": 0
-      },
-      "hidden_to_marketplace": true
+        "value": 3
+      }
     },
     {
-      "name": "booth_count",
+      "name": "massage_20_discount",
       "number_attribute_value": {
-        "value": 0
-      },
-      "hidden_to_marketplace": true
+        "value": 3
+      }
     },
     {
-      "name": "friend_count",
+      "name": "booking_for_chao_phraya_river_cruises",
       "number_attribute_value": {
-        "value": 0
-      },
-      "hidden_to_marketplace": true
-    },
-    {
-      "name":"after_party_claimed",
-      "boolean_attribute_value": {
-        "value": false
-      },
-      "hidden_to_marketplace": false
+        "value": 3
+      }
     }
   ]
 }

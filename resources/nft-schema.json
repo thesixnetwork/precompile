@@ -1,1210 +1,326 @@
 {
-  "code": "TechSauce.GlobalSummit2024",
-  "name": "Techsauce Global Summit 2024 | NFT Treasure Hunt",
-  "owner": "0xNFTOWNER",
-  "description": "This special NFT collection is exclusively for Techsauce Global Summit 2024 activities.",
+  "code": "SIX_NETWORKV9.Bangkok Explorer Pass",
+  "name": "Bangkok Explorer Pass",
+  "owner": "6x1fpluyktgdm8jmt0gexpz7y8z48n66z0zusdenq",
+  "description": "",
   "origin_data": {
-    "origin_base_uri": "",
-    "uri_retrieval_method": "TOKEN",
     "origin_chain": "SIXNET",
     "origin_contract_address": "",
+    "origin_base_uri": "",
     "attribute_overriding": "CHAIN",
     "metadata_format": "opensea",
-    "origin_attributes": [
-      {
-        "name": "background",
-        "data_type": "string",
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Background"
-          }
-        }
-      },
-      {
-        "name": "skin",
-        "data_type": "string",
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Skin"
-          }
-        }
-      },
-      {
-        "name": "frame",
-        "data_type": "string",
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Frame"
-          }
-        }
-      },
-      {
-        "name": "vibe",
-        "data_type": "string",
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Vibe"
-          }
-        }
-      },
-      {
-        "name": "tier",
-        "data_type": "string",
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Badge"
-          }
-        }
-      }
-    ]
+    "origin_attributes": [],
+    "uri_retrieval_method": "TOKEN"
   },
   "onchain_data": {
-    "nft_attributes": [
-      {
-        "name": "redemption_1_stock",
-        "default_mint_value": {
-          "number_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "number",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Redemption1 Stock"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "redemption_2_stock",
-        "default_mint_value": {
-          "number_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "number",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Redemption2 Stock"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "redemption_3_stock",
-        "default_mint_value": {
-          "number_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "number",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Redemption3 Stock"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exclusive_stock",
-        "default_mint_value": {
-          "number_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "number",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Exclusive Stock"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "unlimited_coffee",
-        "default_mint_value": {
-          "number_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "number",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Unlimited Coffee Claim"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exclusive_a",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 500.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Exclusive Price A"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "exclusive_b",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 500.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Exclusive Price B"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "redemption_1_a",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 150.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "NFT Treasure Hunt 1 Price A"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "redemption_1_b",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 150.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "NFT Treasure Hunt 1 Price B"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "redemption_2_a",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 250.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "NFT Treasure Hunt 2 Price A"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "redemption_2_b",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 250.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "NFT Treasure Hunt 2 Price B"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "redemption_3_a",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 350.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "NFT Treasure Hunt 2 Price A"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      },
-      {
-        "name": "redemption_3_b",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 350.0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "NFT Treasure Hunt 2 Price B"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": true
-      }
-    ],
+    "nft_attributes": [],
     "token_attributes": [
       {
-        "name": "alumni",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
+        "name": "name",
+        "data_type": "string",
         "required": true,
         "display_value_field": "value",
         "display_option": {
-          "bool_true_value": "YES",
-          "bool_false_value": "NO",
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Alumni"
+            "display_type": "",
+            "trait_type": "Name",
+            "max_value": "0"
           }
         },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "tier",
         "default_mint_value": {
           "string_attribute_value": {
             "value": ""
           }
         },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false,
+        "index": "0"
+      },
+      {
+        "name": "organization_id",
         "data_type": "string",
         "required": true,
         "display_value_field": "value",
         "display_option": {
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Badge"
+            "display_type": "",
+            "trait_type": "Organization ID",
+            "max_value": "0"
+          }
+        },
+        "default_mint_value": {
+          "string_attribute_value": {
+            "value": ""
           }
         },
         "hidden_overide": false,
-        "hidden_to_marketplace": false
+        "hidden_to_marketplace": false,
+        "index": "1"
       },
       {
-        "name": "redemption_used",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
+        "name": "description",
+        "data_type": "string",
         "required": true,
         "display_value_field": "value",
         "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Redemption Used"
+            "display_type": "",
+            "trait_type": "Description",
+            "max_value": "0"
+          }
+        },
+        "default_mint_value": {
+          "string_attribute_value": {
+            "value": ""
           }
         },
         "hidden_overide": false,
-        "hidden_to_marketplace": false
+        "hidden_to_marketplace": false,
+        "index": "2"
       },
       {
-        "name": "points_a",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Quest Hunting Points"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "points_b",
-        "default_mint_value": {
-          "float_attribute_value": {
-            "value": 0
-          }
-        },
-        "data_type": "float",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "opensea": {
-            "trait_type": "Professional Profile Points"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "stage_count",
-        "default_mint_value": {
-          "number_attribute_value": {
-            "value": 0
-          }
-        },
+        "name": "wat_phra_kaew_day_pass",
         "data_type": "number",
         "required": true,
         "display_value_field": "value",
         "display_option": {
-          "bool_true_value": "Yes",
-          "bool_false_value": "No",
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Attend Stage"
+            "display_type": "",
+            "trait_type": "Wat Phra Kaew Day Pass",
+            "max_value": "0"
           }
         },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "main_stage",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Main Stage"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "stage_2",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Digital Transformation/FoodTech/HealthTech/MasterClass"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "stage_3",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Corporate Innovation/ClimateTech/MasterClass"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "stage_4",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "FinTech/Web3/MasterClass"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "stage_5",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Showcase Stage"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "stage_extra_point",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
-          "opensea": {
-            "trait_type": "Stage Extra Point Claimed"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_count",
         "default_mint_value": {
           "number_attribute_value": {
-            "value": 0
+            "value": "0"
           }
         },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false,
+        "index": "3"
+      },
+      {
+        "name": "wat_arun_day_pass",
         "data_type": "number",
         "required": true,
         "display_value_field": "value",
         "display_option": {
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Exhibition Count"
+            "display_type": "",
+            "trait_type": "Wat Arun Day Pass",
+            "max_value": "0"
           }
         },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_ai_board",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "AI board"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_digital_transformation_zone",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Digital Transformation Zone Powered by BE8"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_experiencing_zone",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Experiencing Zone"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_business_matching_area",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Business Matching Area"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_techsauce_coffee_bar",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Techsauce coffee Bar"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "exhibition_extra_point",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
-          "opensea": {
-            "trait_type": "Exhibition Extra Point Claimed"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_count",
         "default_mint_value": {
           "number_attribute_value": {
-            "value": 0
+            "value": "0"
           }
         },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false,
+        "index": "4"
+      },
+      {
+        "name": "massage_20_discount",
         "data_type": "number",
         "required": true,
         "display_value_field": "value",
         "display_option": {
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Attended Booth Count"
+            "display_type": "",
+            "trait_type": "Massage 20 Discount",
+            "max_value": "0"
           }
         },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_six_network",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "SIX Network"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_the_mall",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "The Mall"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_oozou",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Oozou"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_builder_ai",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Builder.ai"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_zoho",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "Zoho"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_iflytek",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Attended",
-          "bool_false_value": "Available",
-          "opensea": {
-            "trait_type": "iFLYTEK"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "booth_extra_point",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
-          "opensea": {
-            "trait_type": "Booth Extra Point Claimed"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "friend_count",
         "default_mint_value": {
           "number_attribute_value": {
-            "value": 0
+            "value": "0"
           }
         },
+        "hidden_overide": false,
+        "hidden_to_marketplace": false,
+        "index": "5"
+      },
+      {
+        "name": "booking_for_chao_phraya_river_cruises",
         "data_type": "number",
         "required": true,
         "display_value_field": "value",
         "display_option": {
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Friend Count"
+            "display_type": "",
+            "trait_type": "Booking for Chao Phraya River Cruises",
+            "max_value": "0"
+          }
+        },
+        "default_mint_value": {
+          "number_attribute_value": {
+            "value": "0"
           }
         },
         "hidden_overide": false,
-        "hidden_to_marketplace": false
+        "hidden_to_marketplace": false,
+        "index": "6"
       },
       {
-        "name": "friend_reach_10",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
+        "name": "bangkok_explorer_pass_point",
+        "data_type": "number",
         "required": true,
         "display_value_field": "value",
         "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
+          "bool_true_value": "",
+          "bool_false_value": "",
           "opensea": {
-            "trait_type": "Friend reach 10 Claimed"
+            "display_type": "",
+            "trait_type": "Bangkok Explorer PassPoint",
+            "max_value": "0"
           }
         },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "friend_reach_20",
         "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
-          "opensea": {
-            "trait_type": "Friend reach 20 Claimed"
+          "number_attribute_value": {
+            "value": "0"
           }
         },
         "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "friend_reach_30",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "TRUE",
-          "bool_false_value": "FALSE",
-          "opensea": {
-            "trait_type": "Friend reach 30 Claimed"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "after_party_claimed",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Yes",
-          "bool_false_value": "No",
-          "opensea": {
-            "trait_type": "Claimed After Party Privileges"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
-      },
-      {
-        "name": "check_alumni",
-        "default_mint_value": {
-          "boolean_attribute_value": {
-            "value": false
-          }
-        },
-        "data_type": "boolean",
-        "required": true,
-        "display_value_field": "value",
-        "display_option": {
-          "bool_true_value": "Yes",
-          "bool_false_value": "No",
-          "opensea": {
-            "trait_type": "Is Alumni Checked"
-          }
-        },
-        "hidden_overide": false,
-        "hidden_to_marketplace": false
+        "hidden_to_marketplace": false,
+        "index": "7"
       }
     ],
     "actions": [
       {
-        "name": "attend_main_stage",
-        "desc": "Attend main stage event",
-        "params": [],
-        "when": "meta.GetBoolean('main_stage') == false",
+        "name": "transfer_service",
+        "desc": "Transfer Service",
+        "disable": false,
+        "when": "( params['amount'].GetNumber() > 0 ) && ( meta.GetNumber(params['service_name'].GetString()) > 0 )",
         "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 100.0 )",
-          "meta.SetBoolean('main_stage', true)",
-          "meta.SetNumber('stage_count', meta.GetNumber('stage_count') + 1)"
-        ]
-      },
-      {
-        "name": "attend_stage",
-        "desc": "Attend stage event",
-        "params": [
-          {
-            "name": "stage",
-            "desc": "Stage attribute",
-            "data_type": "string",
-            "required": true,
-            "default_value": ""
-          }
+          "meta.TransferNumber(params['service_name'].GetString(), params['token_id'].GetString(), params['amount'].GetNumber())"
         ],
-        "when": "meta.GetBoolean(params['stage'].GetString()) == false",
-        "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 50.0 )",
-          "meta.SetBoolean(params['stage'].GetString(), true)",
-          "meta.SetNumber('stage_count', meta.GetNumber('stage_count') + 1)"
-        ]
-      },
-      {
-        "name": "attend_exhibition",
-        "desc": "Attend partner exhibition",
+        "allowed_actioner": "ALLOWED_ACTIONER_ALL",
         "params": [
           {
-            "name": "exhibition",
-            "desc": "exhibition attribute",
-            "data_type": "string",
-            "required": true,
-            "default_value": ""
-          }
-        ],
-        "when": "meta.GetBoolean(params['exhibition'].GetString()) == false",
-        "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 20.0)",
-          "meta.SetBoolean(params['exhibition'].GetString(), true)",
-          "meta.SetNumber('exhibition_count', meta.GetNumber('exhibition_count') + 1)"
-        ]
-      },
-      {
-        "name": "attend_booth",
-        "desc": "Attend to booth",
-        "params": [
-          {
-            "name": "booth",
-            "desc": "booth attribute",
-            "data_type": "string",
-            "required": true,
-            "default_value": ""
-          }
-        ],
-        "when": "meta.GetBoolean(params['booth'].GetString()) == false",
-        "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 20.0)",
-          "meta.SetBoolean(params['booth'].GetString(), true)",
-          "meta.SetNumber('booth_count', meta.GetNumber('booth_count') + 1)"
-        ]
-      },
-      {
-        "name": "claim_extra_stage_point",
-        "desc": "Claim extra stage point",
-        "params": [],
-        "when": "meta.GetNumber('stage_count') >= 5 && meta.GetBoolean('stage_extra_point') == false",
-        "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 100.0)",
-          "meta.SetBoolean('stage_extra_point', true)"
-        ]
-      },
-      {
-        "name": "claim_extra_exhibition_point",
-        "desc": "Claim extra exhibition point",
-        "params": [],
-        "when": "meta.GetNumber('exhibition_count') >= 5 && meta.GetBoolean('exhibition_extra_point') == false",
-        "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 100.0)",
-          "meta.SetBoolean('exhibition_extra_point', true)"
-        ]
-      },
-      {
-        "name": "claim_extra_booth_point",
-        "desc": "Claim extra booth point",
-        "params": [],
-        "when": "meta.GetNumber('booth_count') > 5 && meta.GetBoolean('booth_extra_point') == false",
-        "then": [
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') + 150.0)",
-          "meta.SetBoolean('booth_extra_point', true)"
-        ]
-      },
-      {
-        "name": "add_friend",
-        "desc": "Add friend",
-        "params": [
-          {
-            "name": "count",
-            "desc": "amount for friend",
-            "data_type": "number",
-            "required": true,
-            "default_value": ""
-          }
-        ],
-        "when": "params['count'].GetNumber() > 0",
-        "then": [
-          "toAdd = params['count'].GetNumber() * 25.0",
-          "meta.SetFloat('points_b', meta.GetFloat('points_b') + toAdd)",
-          "meta.SetNumber('friend_count', meta.GetNumber('friend_count') + params['count'].GetNumber())"
-        ]
-      },
-      {
-        "name": "claim_friend_reach_10",
-        "desc": "Claim extra reach 10 friend point",
-        "params": [],
-        "when": "meta.GetNumber('friend_count') >= 10 && meta.GetBoolean('friend_reach_10') == false",
-        "then": [
-          "meta.SetFloat('points_b', meta.GetFloat('points_b') + 50.0)",
-          "meta.SetBoolean('friend_reach_10', true)"
-        ]
-      },
-      {
-        "name": "claim_friend_reach_20",
-        "desc": "Claim extra reach 20 friend point",
-        "params": [],
-        "when": "meta.GetNumber('friend_count') >= 20 && meta.GetBoolean('friend_reach_20') == false",
-        "then": [
-          "meta.SetFloat('points_b', meta.GetFloat('points_b') + 100.0)",
-          "meta.SetBoolean('friend_reach_20', true)"
-        ]
-      },
-      {
-        "name": "claim_friend_reach_30",
-        "desc": "Claim extra reach 20 friend point",
-        "params": [],
-        "when": "meta.GetNumber('friend_count') >= 20 && meta.GetBoolean('friend_reach_30') == false",
-        "then": [
-          "meta.SetFloat('points_b', meta.GetFloat('points_b') + 150.0)",
-          "meta.SetBoolean('friend_reach_30', true)"
-        ]
-      },
-      {
-        "name": "claim_unlimited_coffee",
-        "desc": "Claim Unlimited Coffee",
-        "params": [],
-        "when": "meta.GetString('tier') != 'Staff'",
-        "then": [
-          "meta.SetNumber('unlimited_coffee', meta.GetNumber('unlimited_coffee') + 1)"
-        ]
-      },
-      {
-        "name": "redeem_prize",
-        "desc": "redemption points for prize",
-        "params": [
-          {
-            "name": "stock",
-            "desc": "redemption stock",
-            "data_type": "string",
-            "required": true,
-            "default_value": ""
-          }
-        ],
-        "when": "meta.GetString('tier') != 'Staff' && meta.GetBoolean('redemption_used') == false && meta.GetFloat('points_a') >= meta.GetFloat(params['stock'].GetString() +'_a') && meta.GetFloat('points_b') >= meta.GetFloat(params['stock'].GetString() +'_b')",
-        "then": [
-          "meta.SetBoolean('redemption_used', true)",
-          "meta.SetFloat('points_a', meta.GetFloat('points_a') - meta.GetFloat(params['stock'].GetString() +'_a'))",
-          "meta.SetFloat('points_b', meta.GetFloat('points_b') - meta.GetFloat(params['stock'].GetString() +'_b'))",
-          "meta.SetNumber(params['stock'].GetString() + '_stock', meta.GetNumber(params['stock'].GetString() + '_stock') + 1)"
-        ]
-      },
-      {
-        "name": "claim_after_party",
-        "desc": "Claim After Party",
-        "params": [],
-        "when": "(meta.GetString('tier') == 'VIP' || meta.GetString('tier') == 'Speaker'|| meta.GetString('tier') == 'Investor') && meta.GetBoolean('after_party_claimed') == false || meta.GetString('tier') != 'Staff' && meta.GetBoolean('after_party_claimed') == false && meta.GetNumber('stage_count') >= 5 && meta.GetNumber('exhibition_count') >= 5 && meta.GetNumber('booth_count') >= 6 && meta.GetNumber('friend_count') >= 10",
-        "then": [
-          "meta.SetBoolean('after_party_claimed', true)",
-          "meta.SetImage(meta.ReplaceAllString(meta.GetImage(),'normal','afterparty'))"
-        ]
-      },
-      {
-        "name": "verify_alumni",
-        "desc": "verify user is alumni or not",
-        "params": [
-          {
-            "name": "is_alumni",
-            "desc": "true/false",
-            "data_type": "number",
-            "required": true,
-            "default_value": ""
-          }
-        ],
-        "when": "meta.GetBoolean('check_alumni') == false",
-        "then": [
-          "isTrue = (params['is_alumni'].GetNumber() > 0)",
-          "meta.SetBoolean('alumni', isTrue)",
-          "meta.SetImage(meta.ReplaceAllString(meta.GetImage(),'nonalumni','alumni'))",
-          "meta.SetBoolean('check_alumni', true)"
-        ]
-      },
-      {
-        "name": "bypass_after_party",
-        "desc": "By Pass After Party",
-        "params": [],
-        "when": "true",
-        "then": [
-          "meta.SetBoolean('after_party_claimed', true)",
-          "meta.SetImage(meta.ReplaceAllString(meta.GetImage(),'normal','afterparty'))"
-        ]
-      },
-      {
-        "name": "change_price",
-        "desc": "Change Price of redemption",
-        "params": [
-          {
-            "name": "stock",
-            "desc": "redemption stock",
+            "name": "service_name",
+            "desc": "Service",
             "data_type": "string",
             "required": true,
             "default_value": ""
           },
           {
-            "name": "points_a",
-            "desc": "New Hunt Point Value",
+            "name": "amount",
+            "desc": "Amount of service to transfer",
             "data_type": "number",
+            "required": true,
+            "default_value": "1"
+          },
+          {
+            "name": "token_id",
+            "desc": "Token Id Destination",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "name": "use_service",
+        "desc": "Use Given Service",
+        "disable": false,
+        "when": "meta.GetNumber(params['service_name'].GetString()) > 0",
+        "then": [
+          "meta.SetNumber(params['service_name'].GetString(), meta.GetNumber(params['service_name'].GetString()) - params['amount'].GetNumber())"
+        ],
+        "allowed_actioner": "ALLOWED_ACTIONER_ALL",
+        "params": [
+          {
+            "name": "service_name",
+            "desc": "Service Name",
+            "data_type": "string",
             "required": true,
             "default_value": ""
           },
           {
-            "name": "points_b",
-            "desc": "New Social Point Value",
+            "name": "amount",
+            "desc": "Amount of service to transfer",
             "data_type": "number",
             "required": true,
-            "default_value": ""
+            "default_value": "1"
           }
-        ],
-        "when": "true",
+        ]
+      },
+      {
+        "name": "airdrop",
+        "desc": "Use for airdrop some service",
+        "disable": false,
+        "when": "meta.GetNumber(params['service_name'].GetString()) >= 0",
         "then": [
-          "new_points_a = params['points_a'].GetNumber()",
-          "new_points_b = params['points_b'].GetNumber()",
-          "meta.SetFloat(params['stock'].GetString() +'_a', 0.0 + new_points_a)",
-          "meta.SetFloat(params['stock'].GetString() +'_b', 0.0 + new_points_b)"
+          "meta.SetNumber(params['service_name'].GetString(), meta.GetNumber(params['service_name'].GetString()) + params['amount'].GetNumber())"
         ],
-        "allowed_actioner": "ALLOWED_ACTIONER_SYSTEM_ONLY"
+        "allowed_actioner": "ALLOWED_ACTIONER_ALL",
+        "params": [
+          {
+            "name": "service_name",
+            "desc": "Service",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          },
+          {
+            "name": "amount",
+            "desc": "Amount of service to transfer",
+            "data_type": "number",
+            "required": true,
+            "default_value": "1"
+          }
+        ]
+      },
+      {
+        "name": "set_social_point",
+        "desc": "Set point social",
+        "disable": false,
+        "when": "meta.GetNumber(params['service_name'].GetString()) >= 0",
+        "then": [
+          "toset = params['point'].GetNumber() + 0",
+          "meta.SetNumber(params['service_name'].GetString(), toset)"
+        ],
+        "allowed_actioner": "ALLOWED_ACTIONER_ALL",
+        "params": [
+          {
+            "name": "service_name",
+            "desc": "Service",
+            "data_type": "string",
+            "required": true,
+            "default_value": ""
+          },
+          {
+            "name": "point",
+            "desc": "Point of service",
+            "data_type": "number",
+            "required": true,
+            "default_value": "0"
+          }
+        ]
+      }
+    ],
+    "status": [
+      {
+        "status_name": "first_mint_complete",
+        "status_value": true
       }
     ]
   },
-  "system_actioners": [
-  ],
+  "isVerified": false,
   "mint_authorization": "system"
 }

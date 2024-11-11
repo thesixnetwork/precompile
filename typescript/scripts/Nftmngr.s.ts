@@ -17,10 +17,8 @@ async function main() {
     provider,
   );
 
-  
-
   // @ts-ignore
-  const tx = await nftmngr.connect(wallet).actionByAdmin( nftContractAddress, nftSchema, tokenId, actionName, refId, jsonParams)
+  const tx = await nftmngr.connect(wallet).actionByAdmin(nftContractAddress, nftSchema, tokenId, actionName, refId, jsonParams)
 
   console.log("Transaction hash:", tx.hash);
 

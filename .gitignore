@@ -8,6 +8,7 @@ out/
 /broadcast/**/dry-run/
 /broadcast/**/666/
 /broadcast/**/9000/
+/broadcast/**/150/
 
 # Docs
 docs/

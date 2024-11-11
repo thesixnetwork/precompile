@@ -9,7 +9,7 @@ dotenv.config();
 
 const NETOWRK = process.argv[2]!;
 
-const ROUTER_ADDDRES = "0x6690f2C4648416B15f5a757d36D6556EdB5D0583"
+const ROUTER_ADDDRES = "0xE18A45EE9e297e3fe1948B4B67E754d691936552"
 
 import exmapleSchema from "../../../resources/nft-schema.json"
 let schema_name = exmapleSchema.code;

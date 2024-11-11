@@ -4,6 +4,7 @@ pragma solidity ^0.8.20;
 import "forge-std/Script.sol";
 import {MyNFT} from "../src/MyNFT.sol";
 import {ERC721Factory} from "../src/Factory/ERC721Factory.sol";
+import {IERC721} from "openzeppelin-contracts/token/ERC721/IERC721.sol";
 
 contract DeployERC721WithFactory is Script {
     uint64 roundFloor = 50;
@@ -129,8 +130,9 @@ contract QueryTokenOwner is Script {
     }
 
     function run() external view {
-        MyNFT nft = MyNFT(payable(0x3753C81072A56072840990D3D02f354Efb7425A3));
+        // MyNFT nft = MyNFT(payable(0x093C42d1f5fFC27c78Fd8830DC9d54E9aa4562B3));
+        address owner = IERC721(0x093C42d1f5fFC27c78Fd8830DC9d54E9aa4562B3).ownerOf(2);
 
-        console.log("Ownerof token 5", nft.totalSupply());
+        console.log("Ownerof token 5", owner);
     }
 }
