@@ -124,15 +124,23 @@ contract DeployScript is Script {
 contract QueryTokenOwner is Script {
     address contractAddress;
     address ownerAddress;
+    address nftContractAddress;
+    uint256 tokenId;
 
     function setUp() public {
         ownerAddress = vm.envAddress("OWNER");
+        tokenId = vm.envUint("TOKEN_ID");
+        string memory nftContractInfoPath = "./broadcast/ERC721.s.sol/666/run-latest.json";
+        string memory nftContractInfo = vm.readFile(nftContractInfoPath);
+        bytes memory nftJsonParsed = vm.parseJson(
+            nftContractInfo,
+            ".transactions[0].contractAddress"
+        );
+        nftContractAddress = abi.decode(nftJsonParsed, (address));
     }
 
     function run() external view {
-        // MyNFT nft = MyNFT(payable(0x093C42d1f5fFC27c78Fd8830DC9d54E9aa4562B3));
-        address owner = IERC721(0x093C42d1f5fFC27c78Fd8830DC9d54E9aa4562B3).ownerOf(2);
-
-        console.log("Ownerof token 5", owner);
+        address owner = IERC721(nftContractAddress).ownerOf(tokenId);
+        console.log("Ownerof token", owner);
     }
 }
