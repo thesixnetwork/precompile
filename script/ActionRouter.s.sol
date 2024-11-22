@@ -18,7 +18,7 @@ contract DeployRouter is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
         new Router{
-            salt: 0x0000000000000000000000000000000000000000000000000000000000000096
+            salt: 0x0000000000000000000000000000000000000000000000000000000000000069
         }();
         vm.stopBroadcast();
     }
@@ -47,7 +47,7 @@ contract ActionScript is Script {
         refId = vm.envString("REF_ID");
         jsonParams = vm.envString("JSON_PARAMS");
 
-        string memory routerContractInfoPath = "./broadcast/ActionRouter.s.sol/98/run-latest.json";
+        string memory routerContractInfoPath = "./broadcast/ActionRouter.s.sol/150/run-latest.json";
         string memory routerContractInfo = vm.readFile(routerContractInfoPath);
         bytes memory routerJsonParsed = vm.parseJson(
             routerContractInfo,
@@ -55,7 +55,7 @@ contract ActionScript is Script {
         );
         routerContractAddress = abi.decode(routerJsonParsed, (address));
 
-        string memory nftContractInfoPath = "./broadcast/ERC721.s.sol/666/run-latest.json";
+        string memory nftContractInfoPath = "./broadcast/ERC721.s.sol/150/run-latest.json";
         string memory nftContractInfo = vm.readFile(nftContractInfoPath);
         bytes memory nftJsonParsed = vm.parseJson(
             nftContractInfo,
@@ -68,7 +68,7 @@ contract ActionScript is Script {
         uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
         vm.startBroadcast(deployerPrivateKey);
 
-        Router actionRouter = Router(routerContractAddress);
+        Router actionRouter = Router(0xE18A45EE9e297e3fe1948B4B67E754d691936552);
 
         bool success = actionRouter.actionByNftOwner(
             nftContractAddress,

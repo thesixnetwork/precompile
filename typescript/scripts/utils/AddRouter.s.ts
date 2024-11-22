@@ -11,17 +11,18 @@ const NETOWRK = process.argv[2]!;
 
 const ROUTER_ADDDRES = "0xE18A45EE9e297e3fe1948B4B67E754d691936552"
 
-import exmapleSchema from "../../../resources/nft-schema.json"
-let schema_name = exmapleSchema.code;
-const split_schema = schema_name.split(".")
-const _name = split_schema[1]
-const org_name = process.env.ORG_NAME
+// import exmapleSchema from "../../../resources/nft-schema.json"
+// let schema_name = exmapleSchema.code;
+// const split_schema = schema_name.split(".")
+// const _name = split_schema[1]
+// const org_name = process.env.ORG_NAME
 let schemaCode: string;
-schemaCode = `${org_name}.${_name}`;
+// schemaCode = `${org_name}.${_name}`;
+schemaCode = `samitivejV12.divine_elite`;
 
 console.log(schemaCode);
 
-exmapleSchema.code = schemaCode;
+// exmapleSchema.code = schemaCode;
 
 const addRouter = async () => {
   if (!NETOWRK) {

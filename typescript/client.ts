@@ -31,13 +31,13 @@ export async function getConnectorConfig(
       return {
         rpcUrl: "https://rpc1.fivenet.sixprotocol.net:443",
         apiUrl: "https://api1.fivenet.sixprotocol.net:443",
-        mnemonic: process.env.TECHSAUCE_TESTNET_MNEMONIC!,
+        mnemonic: process.env.SCHEMA_OWNER_MNEMONIC_FIVENET!,
       };
     case "sixnet":
       return {
         rpcUrl: "https://sixnet-rpc.sixprotocol.net:443",
         apiUrl: "https://sixnet-api.sixprotocol.net:443",
-        mnemonic: process.env.TECHSAUCE_MNEMONIC!,
+        mnemonic: process.env.SCHEMA_OWNER_MNEMONIC_FIVENET!,
       };
     default:
       throw new Error("Invalid network");

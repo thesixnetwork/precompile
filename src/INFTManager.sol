@@ -118,4 +118,10 @@ interface INFTMNGR {
         string memory nftSchemaName,
         string memory base64UpdateAction
     ) external returns (bool success);
+
+    // QUERY
+    function isActionExecutor(
+        string memory nftSchemaame,
+        address executor
+    ) external returns (bool success);
 }
